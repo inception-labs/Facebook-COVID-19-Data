@@ -1,8 +1,8 @@
 import requests
 import json
 import pandas as pd
-fileNames = ["TUN_trust_doctors.csv"]
-urls = ["https://covidmap.umd.edu/api/resources?indicator=trust_doctors&type=daily&country=Tunisia&daterange=20200301-20210609"]
+fileNames = ["TUN_trust_politicians.csv"]
+urls = ["https://covidmap.umd.edu/api/resources?indicator=trust_politicians&type=daily&country=Tunisia&daterange=20200301-20210609"]
 if(len(fileNames) != len(urls)):
     print("Need the same number of files and urls")
     exit()
